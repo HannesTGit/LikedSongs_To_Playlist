@@ -33,9 +33,10 @@ from spotipy.oauth2 import SpotifyOAuth
 from datetime import datetime
 from time import sleep
 
-client_id = "014954a55b6549a1ae077a311a2d178f"
-client_secret = "4f43edbcf9c6466784272fbdf05b9c20"
-redirect_uri = "http://localhost:5000/callback"
+client_id = "YOUR_CLIENT_ID"
+client_secret = "YOUR_CLIENT_SECRET"
+redirect_uri = "YOUR_REDIRECT_URI"
 scope='playlist-modify-public playlist-read-private user-library-read'
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(scope=scope, client_id=client_id, client_secret=client_secret, redirect_uri=redirect_uri))
-get_songs_from_collection("01LBlvmkTPFZh9SNGqMVhl", sp)
+playlist_ID = "YOUR_PLAYLIST_ID"
+get_songs_from_collection(playlist-ID, sp)
