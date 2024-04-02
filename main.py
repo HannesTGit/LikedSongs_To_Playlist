@@ -39,4 +39,4 @@ redirect_uri = "YOUR_REDIRECT_URI"
 scope='playlist-modify-public playlist-read-private user-library-read'
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(scope=scope, client_id=client_id, client_secret=client_secret, redirect_uri=redirect_uri))
 playlist_ID = "YOUR_PLAYLIST_ID"
-get_songs_from_collection(playlist-ID, sp)
+get_songs_from_collection(playlist_ID, sp)
