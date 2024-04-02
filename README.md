@@ -1,4 +1,4 @@
-Converting your Liked Songs into a playlist while keeping the "Date-added"-order.
+Spotify converting your Liked Songs into a playlist while keeping the "Date-added"-order.
 
 How to use:
 1. Create an "App" under <https://developer.spotify.com/dashboard>
